@@ -430,6 +430,13 @@ color = "black"
 logo = "GitHub"
 
 [[params.tools.list]]
+badge = "GitHub Actions"
+skill = "GitHub Actions"
+style = "flat-square"
+color = "black"
+logo = "githubactions"
+
+[[params.tools.list]]
 badge = "GitLab"
 skill = "GitLab"
 style = "flat-square"
@@ -442,6 +449,20 @@ skill = "Jenkins"
 style = "flat-square"
 color = "black"
 logo = "jenkins"
+
+[[params.tools.list]]
+badge = "Atlassian"
+skill = "Atlassian"
+style = "flat-square"
+color = "black"
+logo = "atlassian"
+
+[[params.tools.list]]
+badge = "Jira"
+skill = "Jira"
+style = "flat-square"
+color = "black"
+logo = "jira"
 
 [[params.tools.list]]
 badge = "Vim"
