@@ -403,6 +403,13 @@ color = "black"
 logo = "DigitalOcean"
 
 [[params.tools.list]]
+badge = "VMware"
+skill = "VMware"
+style = "flat-square"
+color = "black"
+logo = "vmware"
+
+[[params.tools.list]]
 badge = "Git"
 skill = "Git"
 style = "flat-square"
