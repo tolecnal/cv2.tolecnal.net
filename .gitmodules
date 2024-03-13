@@ -1,0 +1,3 @@
+[submodule "themes/devlite-cv"]
+	path = themes/devlite-cv
+	url = https://github.com/oborshch/devlite-cv.git
