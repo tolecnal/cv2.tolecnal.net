@@ -136,6 +136,23 @@ dates = "August 2002 - August 2006 (4 years)"
 company = "Jonas B. Gundersen, Drammen, Norway"
 details = "Worked in the reception, dealing with bookings, check-ins and general customer service."
 
+# Experiences section
+[params.education]
+enable = true
+icon = "fa-graduation-cap"
+title = "Education"
+
+[[params.school.list]]
+title = "Network Engineer"
+dates = "August 2001 - August 2002"
+school = "Akademiet, Drammen, Norway"
+details = "Network and infrastructure planning."
+
+[[params.school.list]]
+title = "Service Electrician"
+dates = "August 1995 - August 1998"
+school = "St. Hallvard VGS and Tinius Olsen VGS"
+details = "Service Electrician for office and computer equipment. Repairing, maintaining and building computers."
 
 # Projects section
 [params.projects]
