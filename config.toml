@@ -59,12 +59,6 @@ icon = "fa-twitter"
 url = "//twitter.com/tolecnal"
 title = "@tolecnal"
 
-[[params.contact.list]]
-class = "instagram"
-icon = "fa-instagram"
-url = "//instagram.com/jehaande/"
-title = "@jehaande"
-
 # Languages section
 [params.language]
 enable = true
