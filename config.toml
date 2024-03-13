@@ -234,6 +234,13 @@ color = "black"
 logo = "Apache"
 
 [[params.tools.list]]
+badge = "Apache Solr"
+skill = "Apache Solr"
+style = "flat-square"
+color = "black"
+logo = "apachesolr"
+
+[[params.tools.list]]
 badge = "Nginx"
 skill = "Nginx"
 style = "flat-square"
@@ -367,6 +374,20 @@ color = "black"
 logo = "amazonaws"
 
 [[params.tools.list]]
+badge = "Amazon EC2"
+skill = "Amazon EC2"
+style = "flat-square"
+color = "black"
+logo = "amazonec2"
+
+[[params.tools.list]]
+badge = "Amazon S3"
+skill = "Amazon S3"
+style = "flat-square"
+color = "black"
+logo = "amazons3"
+
+[[params.tools.list]]
 badge = "Microsoft Azure"
 skill = "Microsoft%20Azure"
 style = "flat-square"
@@ -442,3 +463,31 @@ skill = "Visual Studio Code"
 style = "flat-square"
 color = "black"
 logo = "visualstudiocode"
+
+[[params.tools.list]]
+badge = "WordPress"
+skill = "WordPress"
+style = "flat-square"
+color = "black"
+logo = "wordpress"
+
+[[params.tools.list]]
+badge = "Hugo"
+skill = "Hugo"
+style = "flat-square"
+color = "black"
+logo = "hugo"
+
+[[params.tools.list]]
+badge = "Adobe Lightroom Classic"
+skill = "Adobe Lightroom Classic"
+style = "flat-square"
+color = "black"
+logo = "adobelightroomclassic"
+
+[[params.tools.list]]
+badge = "Adobe Photoshop"
+skill = "Adobe Photoshop"
+style = "flat-square"
+color = "black"
+logo = "adobephotoshop"
