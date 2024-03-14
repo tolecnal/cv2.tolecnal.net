@@ -10,6 +10,10 @@
 		{{ partial "contact.html" . }}
 		{{ end }}
 
+		{{ if .Site.Params.education.enable }}
+		{{ partial "education.html" . }}
+		{{ end }}		
+
 		{{ if .Site.Params.skills.enable }}
 		{{ partial "skills.html" . }}
 		{{ end }}

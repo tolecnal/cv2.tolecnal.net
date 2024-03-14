@@ -1,4 +1,4 @@
-baseURL = "https://cv.tolecnal.net/"
+baseURL = "https://cv2.tolecnal.net/"
 languageCode = "en-us"
 title = "Jostein Elvaker Haande Resume"
 
@@ -13,6 +13,7 @@ description = "Jostein Elvaker Haande Resume"
 author = "Jostein Elvaker Haande"
 title = "Jostein Elvaker Haande Resume"
 github_username = "tolecnal"
+
 # Profile section
 [params.profile]
 name = "Jostein Elvaker Haande"
@@ -36,33 +37,33 @@ url = "mailto:tolecnal@tolecnal.net"
 title = "tolecnal@tolecnal.net"
 
 [[params.contact.list]]
+class = "phone"
+icon = "fa-phone"
+url = "tel:+47-928-83-632"
+title = "+47 928 83 632"
+
+[[params.contact.list]]
 class = "website"
 icon = "fa-globe"
-url = "//tolecnal.net"
+url = "https://tolecnal.net"
 title = "tolecnal.net"
 
 [[params.contact.list]]
 class = "linkedin"
 icon = "fa-linkedin"
-url = "//www.linkedin.com/in/josteinhaande/"
-title = "@josteinhaande/"
+url = "https://www.linkedin.com/in/josteinhaande/"
+title = "@josteinhaande"
 
 [[params.contact.list]]
 class = "github"
 icon = "fa-github"
-url = "//github.com/tolecnal"
-title = "github.com/tolecnal"
-
-[[params.contact.list]]
-class = "twitter"
-icon = "fa-twitter"
-url = "//twitter.com/tolecnal"
+url = "https://github.com/tolecnal"
 title = "@tolecnal"
 
 # Skills section
 [params.skills]
 enable = true
-title = "Skills"
+title = "Expertise"
 
 [[params.skills.list]]
 title = "Problem solving"
@@ -103,52 +104,31 @@ icon = "fa-briefcase"
 title = "Work experiences"
 
 [[params.jobs.list]]
-position = "IT Manager"
-dates = "January 2021 - Present (3 years 3 months)"
+position = "Miscellanious roles"
+dates = "February 2014 - Present (10 years 1 month)"
 company = "ayfie AS, Oslo, Norway"
-details = "Responsible for everything IT, from hardware to software. On Premise and Cloud resources in AWS, OVH and Azure. Office 365. Liason with the development team."
-
-[[params.jobs.list]]
-position = "IT Manager / Senior Solutions Specialist"
-dates = "May 2019 - January 2021 (1 year 9 months)"
-company = "ayfie AS, Oslo, Norway"
-details = "Responsible for IT, On Premise and Cloud. Performing advanced training with customers and partners. Liason with the development team."
-
-[[params.jobs.list]]
-position = "Senior Systems Engineer"
-dates = "February 2018 - May 2019 (1 year 4 months)"
-company = "ayfie AS, Oslo, Norway"
-details = "Planning and performing installations of in-house developed software to customers. Partly responsible for internal IT functions. Partner training."
-
-[[params.jobs.list]]
-position = "Systems Engineer"
-dates = "February 2014 - February 2018 (4 years)"
-company = "ayfie AS, Oslo, Norway"
-details = "Planning and performing installations of in-house developed software to customers. Partly responsible for internal IT functions."
+details = "Systems Engineer -> Senior Systems Engineer -> IT Manager. Planning and performing installations of in-house developed software to customers. Partner training. Responsible for IT, from hardware to software. On Premise and Cloud resources in AWS, Azure, OVH and DigitalOcean. Office 365 services. Liason with the development team."
 
 [[params.jobs.list]]
 position = "Product Consultant"
 dates = "June 2008 - January 2014 (5 years 7 months)"
 company = "SystemPartner International AS, Oslo, Norway"
-details = "Planning and performing installations of software used in the hospitality industriy. Performing on-site hardware installations, and on-site training of staff."
+details = "Planning and performing installations of software and hardware used in the hospitality industriy. Performing on-site hardware installations, and on-site training of staff."
 
 [[params.jobs.list]]
 position = "Bartender"
 dates = "September 2006 - May 2008 (1 year 9 months)"
 company = "Goggen Sportspub, Drammen, Norway"
-details = "Customer service and sales."
 
 [[params.jobs.list]]
 position = "Receptionist"
 dates = "March 2005 - August 2005 (6 months)"
 company = "Alcudia Port Suites, Pourto del Alcudia, Spain"
-details = "Worked in the reception, dealing with bookings, check-ins and general customer service."
 
 [[params.jobs.list]]
 position = "Waiter"
 dates = "August 2002 - August 2006 (4 years)"
 company = "Jonas B. Gundersen, Drammen, Norway"
-details = "Worked in the reception, dealing with bookings, check-ins and general customer service."
 
 # Experiences section
 [params.education]
@@ -158,37 +138,37 @@ title = "Education"
 
 [[params.school.list]]
 title = "Network Engineer"
-dates = "August 2001 - August 2002"
-school = "Akademiet, Drammen, Norway"
+dates = "2001 - 2022"
+school = "Akademiet, Drammen"
 details = "Network and infrastructure planning."
 
 [[params.school.list]]
 title = "Service Electrician"
-dates = "August 1995 - August 1998"
-school = "St. Hallvard VGS and Tinius Olsen VGS"
-details = "Service Electrician for office and computer equipment. Repairing, maintaining and building computers."
+dates = "1995 - 1998"
+school = "Tinius Olsen VGS"
+details = "Service Electrician for office and computer equipment."
 
 # Projects section
 [params.projects]
 enable = true
 icon = "fa-archive"
 title = "Personal Projects"
-intro = "This is part of my projects that I have developed and maintain. You can find many of my other projects in my GitHub profile"
+intro = "Some of my projects that I have developed and maintain. View Github for more projects."
 
 [[params.projects.list]]
 title = "wp2hugo"
 url = "https://github.com/tolecnal/wp2hugo"
-tagline = "A Python CLI application that converts a WordPress WXR backup file to MD files usable by Hugo."
+tagline = "A Python application that converts a WordPress WXR backup to Hugo."
 
 [[params.projects.list]]
 title = "ansible-role-pihole-doh"
 url = "https://github.com/tolecnal/ansible-role-pihole-doh"
-tagline = "Ansible role to deploy Pihole, using Cloudflare's DNS proxy service to use DNS over HTTPS."
+tagline = "Ansible role to deploy Pihole using Cloudflare's DNS over HTTPS."
 
 [[params.projects.list]]
 title = "ansible-role-ohmyzsh"
 url = "https://github.com/tolecnal/ansible-role-ohmyzsh"
-tagline = "Ansible role to deploy and configure Oh My Zsh with the Powerlevel 10K theme."
+tagline = "Ansible role to deploy and configure OhMyZsh."
 
 [[params.projects.list]]
 title = "ansible-role-tmux_npm"
