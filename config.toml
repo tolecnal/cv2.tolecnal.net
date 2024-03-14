@@ -59,6 +59,26 @@ icon = "fa-twitter"
 url = "//twitter.com/tolecnal"
 title = "@tolecnal"
 
+# Skills section
+[params.skills]
+enable = true
+title = "Skills"
+
+[[params.skills.list]]
+title = "Problem solving"
+
+[[params.skills.list]]
+title = "Analytical"
+
+[[params.skills.list]]
+title = "Critical thinking"
+
+[[params.skills.list]]
+title = "Team player"
+
+[[params.skills.list]]
+title = "Writing documentation"
+
 # Languages section
 [params.language]
 enable = true

@@ -1,0 +1,8 @@
+<div class="skills-container container-block">
+    <h2 class="container-block-title">Skills</h2>
+    <ul class="list-unstyled interests-list">
+    {{ range .Site.Params.skills.list }}
+        <li>{{ .title }}</span></li>
+    {{ end }}
+    </ul>
+</div><!--//language-->
