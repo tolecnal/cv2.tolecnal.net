@@ -107,7 +107,7 @@ title = "Work experiences"
 position = "Miscellanious roles"
 dates = "February 2014 - Present (10 years 1 month)"
 company = "ayfie AS, Oslo, Norway"
-details = "Systems Engineer -> Senior Systems Engineer -> IT Manager. Planning and performing installations of in-house developed software to customers. Partner training. Responsible for IT, from hardware to software. On Premise and Cloud resources in AWS, Azure, OVH and DigitalOcean. Office 365 services. Liason with the development team."
+details = "<b>Systems Engineer &rarr; Senior Systems Engineer &rarr; IT Manager</b><br /> Planning and performing installations of in-house developed software to customers. Partner network training. Performing support for both end customers and partner netowrk.Responsible for IT, from hardware to software. On Premise and Cloud resources in AWS, Azure, OVH and DigitalOcean. Office 365 services. Liason with the development team."
 
 [[params.jobs.list]]
 position = "Product Consultant"
@@ -513,3 +513,6 @@ skill = "Adobe Photoshop"
 style = "flat-square"
 color = "black"
 logo = "adobephotoshop"
+
+[markup.goldmark.renderer]
+unsafe= true
