@@ -5,7 +5,8 @@ title = "Jostein Elvaker Haande Resume"
 theme = "devlite-cv"
 
 disableRSS = true
-disableSitemap = true
+disableSitemap = false
+disableKinds = ["taxonomy", "taxonomyTerm"]
 disable404 = true
 
 [params]
