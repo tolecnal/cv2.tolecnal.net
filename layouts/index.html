@@ -28,6 +28,10 @@
 	{{ partial "tools.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.references.enable }}
+    {{ partial "references.html" . }}
+    {{ end }}
+
 	</div><!--//main-body-->
     </div>
 

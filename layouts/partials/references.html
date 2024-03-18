@@ -1,0 +1,8 @@
+<section class="references-section section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.references.icon }}"></i>{{ .Site.Params.references.title }}</h2>
+    <div class="references">
+    {{ range .Site.Params.references.list }}
+        <p>{{ with .text }}{{ . | markdownify }}{{ end }}</p>
+    {{ end }}
+    </div>
+</section><!--//skills-section-->

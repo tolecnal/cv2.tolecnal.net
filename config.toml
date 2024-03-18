@@ -519,5 +519,15 @@ style = "flat-square"
 color = "black"
 logo = "adobephotoshop"
 
+# Experiences section
+[params.references]
+enable = true
+icon = "fa-users"
+title = "References"
+
+[[params.references.list]]
+text = "References available upon request."
+
+
 [markup.goldmark.renderer]
 unsafe= true
