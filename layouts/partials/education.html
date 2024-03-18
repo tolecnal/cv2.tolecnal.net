@@ -1,10 +1,10 @@
-<div class="skills-container container-block">
+<div class="education-container container-block">
     <h2 class="container-block-title">Education</h2>
     {{ range .Site.Params.school.list }}
-    <div class="item">
-        <div class="school"><b>{{ .school }}</b></div>
-        <div class="time">{{ .title }} ({{ .dates }})</div>
-        <div class="details"><i>{{ with .details }}{{ . | markdownify }}{{ end }}</i></div>
+    <div>
+        <div class="entry-school">{{ .school }}</div>
+        <div class="entry-time">{{ .title }} ({{ .dates }})</div>
+        <div class="entry-desc">{{ with .details }}{{ . | markdownify }}{{ end }}</div>
     </div>
     {{ end }}
 </div>

@@ -147,7 +147,7 @@ icon = "fa-briefcase"
 title = "Work experiences"
 
 [[params.jobs.list]]
-position = "Miscellanious roles"
+position = "Miscellaneous roles"
 dates = "February 2014 - Present (10 years 1 month)"
 company = "ayfie AS, Oslo, Norway"
 details = "<b>Systems Engineer &rarr; Senior Systems Engineer &rarr; IT Manager</b><br /> Planning and performing installations of in-house developed software to customers. Responsible for training partner network resources. Performing support for both end customers and partner network. Responsible for IT, from hardware to software. On Premise and Cloud resources in AWS, Azure, OVH and DigitalOcean. Maintaining Office 365 tenants and services. Liaison with the development team."
