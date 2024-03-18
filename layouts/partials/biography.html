@@ -1,0 +1,8 @@
+<section class="biography-section section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.biography.icon }}"></i>{{ .Site.Params.biography.title }}</h2>
+    <div class="biography">
+    {{ range .Site.Params.biography.list }}
+        <p>{{ with .text }}{{ . | markdownify }}{{ end }}</p>
+    {{ end }}
+    </div>
+</section><!--//skills-section-->

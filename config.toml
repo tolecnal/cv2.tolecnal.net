@@ -1,4 +1,4 @@
-baseURL = "https://cv.tolecnal.net/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Jostein Elvaker Haande Resume"
 
@@ -6,7 +6,7 @@ theme = "devlite-cv"
 
 disableRSS = true
 disableSitemap = false
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 disable404 = true
 
 [params]
@@ -81,6 +81,24 @@ title = "Team player"
 [[params.skills.list]]
 title = "Writing documentation"
 
+# Experiences section
+[params.education]
+enable = true
+icon = "fa-graduation-cap"
+title = "Education"
+
+[[params.school.list]]
+title = "Network Engineer"
+dates = "2001 - 2022"
+school = "Akademiet, Drammen"
+details = "Network and infrastructure planning."
+
+[[params.school.list]]
+title = "Service Electrician"
+dates = "1995 - 1998"
+school = "Tinius Olsen VGS"
+details = "Service Electrician for office and computer equipment."
+
 # Languages section
 [params.language]
 enable = true
@@ -99,6 +117,30 @@ language = "German"
 level = "Basic"
 
 # Experiences section
+[params.biography]
+enable = true
+icon = "fa-user"
+title = "Biography"
+
+[[params.biography.list]]
+text = "Systems engineer with extensive experience in designing, implementing, and managing complex IT infrastructures. Skilled in analysing system requirements and developing solutions. Expertise in network architecture, virtualisation and cloud computing."
+
+[[params.biography.list]]
+text = "Strong problem-solving skills and a commitment to continuous learning and professional development. Dedicated to leveraging technology to improve efficiency, productivity, and user experience."
+
+[[params.biography.list]]
+text = "Absolutely love automation and standardization using technologies such as Ansible, PowerShell and OpenTofu/Terraform. This love has lead to the development of some published Ansible roles. A huge advocate for open source, both due to its collaborative nature, being a great source to learn new things, but also the fact that it drives so much of the technology we surround ourselves with."
+
+[[params.biography.list]]
+text = "During my time in IT, I've had the privilege to work as technical lead with large companies such as Skanska Global, Storebrand and Rambøll. I have also had the pleasure of being an integral part of training and supporting partner networks."
+
+[[params.biography.list]]
+text = "On my spare time I love to dabble with amateur photography, mostly landscape photography, starry skies and deep sky photography. Also a huge movie nerd, who likes to wind down after a long day in my home theatre."
+
+[[params.biography.list]]
+text = "<b>Fun fact:</b> not a single day goes by without me thinking of a quote and/or scene from Monty Python."
+
+# Experiences section
 [params.experiences]
 enable = true
 icon = "fa-briefcase"
@@ -115,39 +157,6 @@ position = "Product Consultant"
 dates = "June 2008 - January 2014 (5 years 7 months)"
 company = "SystemPartner International AS, Oslo, Norway"
 details = "Planning and performing installations of software and hardware used in the hospitality industriy. Performing on-site hardware installations, and on-site training of staff."
-
-[[params.jobs.list]]
-position = "Bartender"
-dates = "September 2006 - May 2008 (1 year 9 months)"
-company = "Goggen Sportspub, Drammen, Norway"
-
-[[params.jobs.list]]
-position = "Receptionist"
-dates = "March 2005 - August 2005 (6 months)"
-company = "Alcudia Port Suites, Pourto del Alcudia, Spain"
-
-[[params.jobs.list]]
-position = "Waiter"
-dates = "August 2002 - August 2006 (4 years)"
-company = "Jonas B. Gundersen, Drammen, Norway"
-
-# Experiences section
-[params.education]
-enable = true
-icon = "fa-graduation-cap"
-title = "Education"
-
-[[params.school.list]]
-title = "Network Engineer"
-dates = "2001 - 2022"
-school = "Akademiet, Drammen"
-details = "Network and infrastructure planning."
-
-[[params.school.list]]
-title = "Service Electrician"
-dates = "1995 - 1998"
-school = "Tinius Olsen VGS"
-details = "Service Electrician for office and computer equipment."
 
 # Projects section
 [params.projects]
@@ -170,11 +179,6 @@ tagline = "Ansible role to deploy Pihole using Cloudflare's DNS over HTTPS."
 title = "ansible-role-ohmyzsh"
 url = "https://github.com/tolecnal/ansible-role-ohmyzsh"
 tagline = "Ansible role to deploy and configure OhMyZsh."
-
-[[params.projects.list]]
-title = "ansible-role-tmux_npm"
-url = "https://github.com/tolecnal/ansible-role-tmux_npm"
-tagline = "Ansible role to install and configure tmux with the TPM plugin manager, and some nice extras."
 
 [[params.projects.list]]
 title = "ansible-role-nvchad"
